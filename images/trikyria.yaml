@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: trikyria}
 layers:
-  default:
+  DVORAK:
   - TAB
   - {t: '''', s: Q}
   - {t: ',', s: W}
@@ -32,8 +32,8 @@ layers:
   - {t: K, s: V}
   - {t: X, s: B}
   - {t: LEFT, h: LALT}
-  - {t: RIGHT, h: func}
-  - {t: DOWN, h: func}
+  - {t: RIGHT, h: BT}
+  - {t: DOWN, h: BT}
   - {t: UP, h: RALT}
   - {t: B, s: N}
   - M
@@ -43,17 +43,17 @@ layers:
   - \
   - RET
   - {t: PG UP, h: LALT}
-  - {t: DEL, h: lower}
+  - {t: DEL, h: NUM}
   - {t: SPACE, h: LSHFT}
   - LGUI
   - RGUI
   - {t: RET, h: RSHIFT}
-  - {t: BSPC, h: raise}
+  - {t: BSPC, h: RAISE}
   - {t: PG DN, h: LALT}
   - RET
   qwerty: [ESC, Q, W, E, R, T, Y, U, I, O, P, \, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z, X, C, V, B, LSHFT, LSHFT, LSHFT, LSHFT, N, M, ',', ., /, RCTRL,
     LGUI, DEL, RET, SPACE, ESC, RET, SPACE, TAB, BSPC, RALT]
-  raise:
+  RAISE:
   - ESC
   - \
   - ^
@@ -104,7 +104,7 @@ layers:
   - {t: TAB, type: held}
   - BSPC
   - RALT
-  lower:
+  NUM:
   - ESC
   - Q
   - F7
@@ -206,7 +206,7 @@ layers:
   - '0'
   - BSPC
   - RALT
-  func:
+  BT:
   - ESC
   - Q
   - Alt+7
