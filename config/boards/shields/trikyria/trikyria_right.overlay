@@ -31,6 +31,10 @@
         , <&pro_micro 21 GPIO_ACTIVE_HIGH>
         ;
         };
+        
+right_encoder {
+    status = "okay";
+};
 };
 
 // vim: expandtab softtabstop=4 shiftwidth=4 filetype=devicetree
