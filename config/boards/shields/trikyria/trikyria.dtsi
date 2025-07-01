@@ -17,7 +17,7 @@
 
    chosen {
         zmk,kscan = &kscan0;
-        zmk,physical-layout = &splitkb_kyria_6col_layout; 
+        zmk,physical-layout = &default_transform;
     };
 
     kscan0: kscan {
