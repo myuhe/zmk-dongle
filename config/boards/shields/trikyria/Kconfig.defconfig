@@ -9,21 +9,6 @@ config ZMK_SPLIT_ROLE_CENTRAL
 config ZMK_USB
     default y
 
-
-if DISPLAY
-
-config I2C
-	default y
-
-config SSD1306
-	default y
-
-choice SSD1306_CONTROLLER_TYPE
-	default SSD1306_SH1106_COMPATIBLE if SHIELD_SH1106_128X64
-endchoice
-
-endif
-
 endif
 
 if SHIELD_TRIKYRIA_LEFT || SHIELD_TRIKYRIA_RIGHT || SHIELD_TRIKYRIA_DONGLE || SHIELD_TRIKYRIA_DONGLE_OLED
