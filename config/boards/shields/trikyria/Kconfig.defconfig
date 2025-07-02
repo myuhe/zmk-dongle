@@ -19,10 +19,4 @@ config ZMK_SPLIT
 config ZMK_BLE
     default y
 
-config SSD1306
-	default y
-
-config SSD1306_REVERSE_MODE
-	default y
-
 endif
