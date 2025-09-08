@@ -33,7 +33,7 @@
         page-offset = <0>;
         display-offset = <0>;
         multiplex-ratio = <63>;
-        rotation  = <180>;
+//        rotation  = <180>;
 //        segment-remap;
 //        com-invdir;
 //        inversion-on;
