@@ -21,7 +21,7 @@
     };
 };
 
-&xiao_i2c {
+&pro_micro {
     status = "okay";
 
     oled: ssd1306@3c {
