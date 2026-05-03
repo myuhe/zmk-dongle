@@ -1,0 +1,98 @@
+(undo-tree-save-format-version . 1)
+"1b9473b0792efcbd488b8e5d368a31a13d498cb1"
+[nil nil nil nil (27127 5337 101976 752000) 0 nil]
+([nil nil ((151 . 152) (151 . 152) (t 27126 50687 300921 73000)) nil (27127 5337 101975 824000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 203 . 204) (nil fontified nil 152 . 204) (152 . 204)) nil (27127 5337 101975 10000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified nil)) . 152) (undo-tree-id127 . -1) (#("ONFIG_ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING=y" 0 50 (face font-lock-variable-name-face fontified t) 50 51 (fontified t) 51 52 (rear-nonsticky t fontified t)) . -152) (undo-tree-id128 . -52) (undo-tree-id129 . -52) (undo-tree-id130 . -52) (undo-tree-id131 . -52) 204 (t 27126 64314 798758 869000)) nil (27127 5337 101973 806000) 0 nil])
+([nil nil ((40 . 41) (40 . 41) (t 27126 64320 46829 821000)) nil (27127 5337 101969 403000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 530 . 531) (nil fontified nil 530 . 531) (nil fontified nil 493 . 530) (nil fontified nil 491 . 493) (nil fontified nil 456 . 491) (nil fontified nil 454 . 456) (nil fontified nil 453 . 454) (nil fontified nil 452 . 453) (nil fontified nil 451 . 452) (nil fontified nil 450 . 451) (nil fontified nil 449 . 450) (nil fontified nil 398 . 449) (nil fontified nil 397 . 398) (nil fontified nil 394 . 397) (nil fontified nil 365 . 394) (nil fontified nil 362 . 365) (nil fontified nil 322 . 362) (nil fontified nil 321 . 322) (nil fontified nil 279 . 321) (nil fontified nil 277 . 279) (nil fontified nil 272 . 277) (nil fontified nil 241 . 272) (nil fontified nil 237 . 241) (nil fontified nil 205 . 237) (nil fontified nil 181 . 205) (nil fontified nil 179 . 181) (nil fontified nil 175 . 179) (nil fontified nil 142 . 175) (nil fontified nil 139 . 142) (nil fontified nil 128 . 139) (nil fontified nil 127 . 128) (nil fontified nil 114 . 127) (nil fontified nil 112 . 114) (nil fontified nil 111 . 112) (nil fontified nil 110 . 111) (nil fontified nil 109 . 110) (nil fontified nil 108 . 109) (nil fontified nil 95 . 108) (nil fontified nil 93 . 95) (nil fontified nil 86 . 93) (nil fontified nil 63 . 86) (nil fontified nil 61 . 63) (nil fontified nil 58 . 61) (nil fontified nil 40 . 58) (40 . 531)) nil (27127 5337 101966 769000) 0 nil])
+([nil nil ((#("CONFIG_ZMK_DISPLAY=y
+# CONFIG_ZMK_IDLE_TIMEOUT=60000
+# CONFIG_BT_BAS=n
+
+# Kyria config
+
+CONFIG_EC11=y
+CONFIG_EC11_TRIGGER_GLOBAL_THREAD=y
+
+# Set defaults for macros
+CONFIG_ZMK_MACRO_DEFAULT_WAIT_MS=35
+CONFIG_ZMK_MACRO_DEFAULT_TAP_MS=35
+
+# CONFIG_ZMK_DONGLE_DISPLAY_MAC_MODIFIERS=y
+
+CONFIG_ZMK_DONGLE_DISPLAY_DONGLE_BATTERY=y
+CONFIG_ZMK_DONGLE_DISPLAY_WPM=y
+
+CONFIG_ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING=y
+
+
+# Fix MacOS Sequoia BT stack changes
+# CONFIG_BT_PERIPHERAL_PREF_MIN_INT=12
+
+" 0 18 (face font-lock-variable-name-face fontified nil) 18 21 (fontified nil) 21 23 (face font-lock-comment-delimiter-face fontified nil) 23 46 (face font-lock-comment-face fontified nil) 46 53 (face font-lock-comment-face fontified nil) 53 55 (face font-lock-comment-delimiter-face fontified nil) 55 68 (face font-lock-comment-face fontified nil) 68 69 (face font-lock-comment-face fontified nil) 69 70 (face font-lock-comment-face fontified nil rear-nonsticky t) 70 71 (face font-lock-comment-face fontified nil) 71 72 (fontified nil) 72 74 (face font-lock-comment-delimiter-face fontified nil) 74 87 (face font-lock-comment-face fontified nil) 87 88 (fontified nil) 88 99 (face font-lock-variable-name-face fontified nil) 99 102 (fontified nil) 102 135 (face font-lock-variable-name-face fontified nil) 135 139 (fontified nil) 139 141 (face font-lock-comment-delimiter-face fontified nil) 141 165 (face font-lock-comment-face fontified nil) 165 197 (face font-lock-variable-name-face fontified nil) 197 201 (fontified nil) 201 232 (face font-lock-variable-name-face fontified nil) 232 237 (fontified nil) 237 239 (face font-lock-comment-delimiter-face fontified nil) 239 281 (face font-lock-comment-face fontified nil) 281 282 (fontified nil) 282 322 (face font-lock-variable-name-face fontified nil) 322 325 (fontified nil) 325 354 (face font-lock-variable-name-face fontified nil) 354 357 (fontified nil) 357 358 (fontified nil) 358 409 (face font-lock-variable-name-face fontified nil) 409 410 (fontified nil) 410 411 (fontified nil rear-nonsticky t) 411 412 (fontified nil) 412 413 (fontified nil) 413 414 (fontified nil) 414 416 (face font-lock-comment-delimiter-face fontified nil) 416 451 (face font-lock-comment-face fontified nil) 451 453 (face font-lock-comment-delimiter-face fontified nil) 453 490 (face font-lock-comment-face fontified nil) 490 491 (rear-nonsticky nil fontified nil)) . 40) (undo-tree-id125 . -491) (undo-tree-id126 . -491) (nil fontified t 58 . 61) (nil fontified t 86 . 93) (nil fontified t 110 . 111) (nil fontified t 111 . 112) (nil fontified t 114 . 127) (nil fontified t 127 . 128) (nil fontified t 139 . 142) (nil fontified t 175 . 179) (nil fontified t 181 . 205) (nil fontified t 237 . 241) (nil fontified t 272 . 277) (nil fontified t 279 . 321) (nil fontified t 321 . 322) (nil fontified t 362 . 365) (nil fontified t 394 . 397) (nil fontified t 397 . 398) (nil fontified t 451 . 452) (nil fontified t 452 . 453) (nil fontified t 453 . 454) (nil fontified t 456 . 491) (nil fontified t 493 . 530) (nil rear-nonsticky t 530 . 531)) nil (27127 5337 101960 521000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 877 . 878) (nil fontified nil 877 . 878) (nil fontified nil 840 . 877) (nil fontified nil 838 . 840) (nil fontified nil 803 . 838) (nil fontified nil 801 . 803) (nil fontified nil 800 . 801) (nil fontified nil 799 . 800) (nil fontified nil 798 . 799) (nil fontified nil 797 . 798) (nil fontified nil 796 . 797) (nil fontified nil 745 . 796) (nil fontified nil 744 . 745) (nil fontified nil 741 . 744) (nil fontified nil 712 . 741) (nil fontified nil 709 . 712) (nil fontified nil 669 . 709) (nil fontified nil 668 . 669) (nil fontified nil 626 . 668) (nil fontified nil 624 . 626) (nil fontified nil 619 . 624) (nil fontified nil 588 . 619) (nil fontified nil 584 . 588) (nil fontified nil 552 . 584) (nil fontified nil 528 . 552) (nil fontified nil 526 . 528) (nil fontified nil 522 . 526) (nil fontified nil 489 . 522) (nil fontified nil 486 . 489) (nil fontified nil 475 . 486) (nil fontified nil 474 . 475) (nil fontified nil 461 . 474) (nil fontified nil 459 . 461) (nil fontified nil 458 . 459) (nil fontified nil 457 . 458) (nil fontified nil 456 . 457) (nil fontified nil 455 . 456) (nil fontified nil 442 . 455) (nil fontified nil 440 . 442) (nil fontified nil 433 . 440) (nil fontified nil 410 . 433) (nil fontified nil 408 . 410) (nil fontified nil 405 . 408) (nil fontified nil 387 . 405) (387 . 878)) nil (27127 5337 101954 479000) 0 nil])
+([nil nil ((#("CONFIG_ZMK_DISPLAY=y
+" 0 18 (face font-lock-variable-name-face fontified t) 18 21 (fontified t)) . 387) (undo-tree-id124 . -21)) nil (27127 5337 101949 176000) 0 nil])
+([nil nil ((#("# CONFIG_ZMK_IDLE_TIMEOUT=60000
+" 0 2 (face font-lock-comment-delimiter-face fontified t) 2 25 (face font-lock-comment-face fontified t) 25 32 (face font-lock-comment-face fontified t)) . 387) (undo-tree-id123 . -32)) nil (27127 5337 101947 900000) 0 nil])
+([nil nil ((#("# CONFIG_BT_BAS=n
+" 0 2 (face font-lock-comment-delimiter-face fontified t) 2 15 (face font-lock-comment-face fontified t) 15 16 (face font-lock-comment-face fontified t) 16 17 (face font-lock-comment-face fontified t rear-nonsticky t) 17 18 (face font-lock-comment-face fontified t)) . 387) (undo-tree-id122 . -18)) nil (27127 5337 101946 591000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 387) (undo-tree-id121 . -1)) nil (27127 5337 101945 322000) 0 nil])
+([nil nil ((#("# Kyria config
+" 0 2 (face font-lock-comment-delimiter-face fontified t) 2 15 (face font-lock-comment-face fontified t)) . 387) (undo-tree-id120 . -15)) nil (27127 5337 101943 987000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 387) (undo-tree-id119 . -1)) nil (27127 5337 101942 665000) 0 nil])
+([nil nil ((#("# Set defaults for macros
+" 0 2 (face font-lock-comment-delimiter-face fontified t) 2 26 (face font-lock-comment-face fontified t)) . 438) (undo-tree-id118 . -26)) nil (27127 5337 101941 344000) 0 nil])
+([nil nil ((#("CONFIG_ZMK_MACRO_DEFAULT_WAIT_MS=35
+" 0 32 (face font-lock-variable-name-face fontified t) 32 36 (fontified t)) . 438) (undo-tree-id117 . -36)) nil (27127 5337 101939 825000) 0 nil])
+([nil nil ((#("CONFIG_ZMK_MACRO_DEFAULT_TAP_MS=35
+" 0 31 (face font-lock-variable-name-face fontified t) 31 35 (fontified t)) . 438) (undo-tree-id116 . -35)) nil (27127 5337 101938 440000) 0 nil])
+([nil nil ((#("# CONFIG_ZMK_DONGLE_DISPLAY_MAC_MODIFIERS=y
+" 0 2 (face font-lock-comment-delimiter-face fontified t) 2 44 (face font-lock-comment-face fontified t)) . 439) (undo-tree-id115 . -44)) nil (27127 5337 101937 61000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 439) (undo-tree-id114 . -1)) nil (27127 5337 101935 740000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 438) (undo-tree-id113 . -1)) nil (27127 5337 101934 364000) 0 nil])
+([nil nil ((#("# Fix MacOS Sequoia BT stack changes
+" 0 2 (face font-lock-comment-delimiter-face fontified t) 2 37 (face font-lock-comment-face fontified t)) . 570) (undo-tree-id112 . -37)) nil (27127 5337 101933 121000) 0 nil])
+([nil nil ((#("# CONFIG_BT_PERIPHERAL_PREF_MIN_INT=12
+" 0 2 (face font-lock-comment-delimiter-face fontified t) 2 39 (face font-lock-comment-face fontified t)) . 570) (undo-tree-id111 . -39)) nil (27127 5337 101931 599000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t rear-nonsticky t)) . 570) (undo-tree-id110 . -1)) nil (27127 5337 101930 243000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 40) (undo-tree-id109 . -1) (t 27127 202 233410 641000)) nil (27127 5337 101928 616000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 40) (undo-tree-id108 . -1)) nil (27127 5337 101927 134000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 152) (undo-tree-id107 . -1) (t 27127 209 841508 370000)) nil (27127 5337 101925 769000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 215) (undo-tree-id106 . -1)) nil (27127 5337 101924 56000) 0 nil])
+([nil nil ((apply -2 477 512 undo--wrap-and-run-primitive-undo 477 512 ((477 . 479) 509 (t 27127 447 546635 712000)))) nil (27127 5337 101922 779000) 0 nil])
+([nil nil ((511 . 512) (t 27127 451 330686 334000)) nil (27127 5337 101922 176000) 0 nil])
+([nil nil ((#("q" 0 1 (fontified t)) . 511) (undo-tree-id104 . -1) (undo-tree-id105 . -1)) nil (27127 5337 101921 453000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 702 . 703) (nil fontified nil 568 . 703) (568 . 703) (t 27127 451 330686 334000)) nil (27127 5337 101919 383000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 567) (undo-tree-id99 . -1) (undo-tree-id100 . -1) (undo-tree-id101 . -1) (undo-tree-id102 . -1) (undo-tree-id103 . -1)) nil (27127 5337 101918 137000) 0 nil])
+([nil nil ((#("CONFIG_ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING=y
+" 0 51 (face font-lock-variable-name-face fontified t) 51 52 (fontified t) 52 53 (fontified t rear-nonsticky t) 53 54 (fontified t)) . 512) (undo-tree-id96 . -27) (undo-tree-id97 . -27) (undo-tree-id98 . -54)) nil (27127 5337 101913 960000) 0 nil])
+([nil nil ((#("CONFIG_ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING=y" 0 51 (face font-lock-variable-name-face fontified t) 51 52 (fontified t) 52 53 (fontified t rear-nonsticky t)) . 595) (undo-tree-id82 . -51) (undo-tree-id83 . -53) (undo-tree-id84 . -51) (undo-tree-id85 . -51) (undo-tree-id86 . -51) (undo-tree-id87 . -51) (undo-tree-id88 . -51) (undo-tree-id89 . -51) (undo-tree-id90 . -51) (undo-tree-id91 . -51) (undo-tree-id92 . -51) (undo-tree-id93 . -51) (undo-tree-id94 . -51) (undo-tree-id95 . -53)) nil (27127 5337 101877 783000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 512) (undo-tree-id76 . -1) (undo-tree-id77 . -1) (undo-tree-id78 . -1) (undo-tree-id79 . -1) (undo-tree-id80 . -1) (undo-tree-id81 . -1) (t 27127 880 525633 795000)) nil (27127 5337 101867 605000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 477) (#("#" 0 1 (face font-lock-comment-delimiter-face fontified t)) . 477) (t 27127 882 581662 157000)) nil (27127 5337 101862 753000) 0 nil])
+([nil nil ((592 . 593) (t 27127 1074 952315 4000)) nil (27127 5337 101862 47000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . -592) (undo-tree-id69 . -1) (undo-tree-id70 . -1) (undo-tree-id71 . 1) (undo-tree-id72 . -1) (undo-tree-id73 . -1) (undo-tree-id74 . -1) (undo-tree-id75 . -1) 593 (t 27127 1081 776409 80000)) nil (27127 5337 101860 972000) 0 nil])
+([nil nil ((592 . 594) (t 27127 1084 88440 952000)) nil (27127 5337 101855 383000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 630 . 631) (nil fontified nil 594 . 631) (594 . 631)) nil (27127 5337 101854 638000) 0 nil])
+([nil nil ((592 . 593) (t 27127 2237 546021 836000)) nil (27127 5337 101853 823000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 634 . 635) (nil fontified nil 593 . 635) (593 . 635)) nil (27127 5337 101853 77000) 0 nil])
+([nil nil ((#("CONFIG_ZMK_DONGLE_DISPLAY_BATTERY_STATUS=y" 0 40 (face font-lock-variable-name-face fontified t) 40 41 (fontified t) 41 42 (rear-nonsticky t fontified t)) . 593) (undo-tree-id3 . -42) (undo-tree-id4 . -42) (undo-tree-id5 . -42) (undo-tree-id6 . -42) (undo-tree-id7 . -42) (undo-tree-id8 . -42) (undo-tree-id9 . -42) (undo-tree-id10 . -42) (undo-tree-id11 . -42) (undo-tree-id12 . -42) (undo-tree-id13 . -42) (undo-tree-id14 . -42) (undo-tree-id15 . -42) (undo-tree-id16 . -42) (undo-tree-id17 . -42) (undo-tree-id18 . -42) (undo-tree-id19 . -42) (undo-tree-id20 . -42) (undo-tree-id21 . -42) (undo-tree-id22 . -42) (undo-tree-id23 . -42) (undo-tree-id24 . -42) (undo-tree-id25 . -42) (undo-tree-id26 . -42) (undo-tree-id27 . -42) (undo-tree-id28 . -42) (undo-tree-id29 . -42) (undo-tree-id30 . -42) (undo-tree-id31 . -42) (undo-tree-id32 . -42) (undo-tree-id33 . -42) (undo-tree-id34 . -42) (undo-tree-id35 . -42) (undo-tree-id36 . -42) (undo-tree-id37 . -42) (undo-tree-id38 . -42) (undo-tree-id39 . -42) (undo-tree-id40 . -42) (undo-tree-id41 . -42) (undo-tree-id42 . -42) (undo-tree-id43 . -42) (undo-tree-id44 . -42) (undo-tree-id45 . -42) (undo-tree-id46 . -42) (undo-tree-id47 . -42) (undo-tree-id48 . -42) (undo-tree-id49 . -42) (undo-tree-id50 . -42) (undo-tree-id51 . -42) (undo-tree-id52 . -42) (undo-tree-id53 . -42) (undo-tree-id54 . -42) (undo-tree-id55 . -42) (undo-tree-id56 . -42) (undo-tree-id57 . -42) (undo-tree-id58 . -42) (undo-tree-id59 . -42) (undo-tree-id60 . -42) (undo-tree-id61 . -42) (undo-tree-id62 . -42) (undo-tree-id63 . -42) (undo-tree-id64 . -42) (undo-tree-id65 . -42) (undo-tree-id66 . -42) (undo-tree-id67 . -42) (undo-tree-id68 . -42) (t 27127 3292 79255 252000)) nil (27127 5337 101848 519000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 593) (undo-tree-id0 . 1) (undo-tree-id1 . -1) (undo-tree-id2 . -1)) nil (27127 5337 101229 34000) 0 nil])
+([nil nil ((631 . 633) (t 27127 3766 737943 875000)) nil (27127 5337 101212 471000) 0 nil])
+([nil current ((nil rear-nonsticky nil 669 . 670) (nil fontified nil 633 . 670) (633 . 670)) nil (27127 5337 101207 151000) 0 nil])
+nil
