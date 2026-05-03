@@ -24,9 +24,9 @@ manifest:
     # - name: lintilla
     #   remote: ctranstrum
     #   revision: zmk
-    - name: zmk-rgbled-widget
-      remote: caksoylar
-      revision: main
+    # - name: zmk-rgbled-widget
+    #   remote: caksoylar
+    #   revision: main
     # - name: prospector-zmk-module
     #   remote: carrefinho
     #   revision: main
