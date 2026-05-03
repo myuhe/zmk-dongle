@@ -32,13 +32,13 @@ include:
   #   artifact-name: klor-right
 
   # Kyria rev 3.1 with OLED dongle
-  - board: nice_nano_v2
+  - board: nice_nano@2.0.0//zmk
     shield: trikyria_dongle dongle_display
     artifact-name: kyria-dongle
-  - board: nice_nano_v2
+  - board: nice_nano@2.0.0//zmk
     shield: trikyria_left
     artifact-name: kyria-left
-  - board: nice_nano_v2
+  - board: nice_nano@2.0.0//zmk
     shield: trikyria_right
     artifact-name: kyria-right
 
@@ -57,9 +57,9 @@ include:
   #   artifact-name: lintilla-right
 
   # Settings Reset
-  - board: nice_nano_v2
+  - board: nice_nano@2.0.0//zmk
     shield: settings_reset
     artifact-name: nano-reset
-  - board: xiao_ble//zmk
-    shield: settings_reset
-    artifact-name: xiao-reset
+  # - board: xiao_ble//zmk
+  #   shield: settings_reset
+  #   artifact-name: xiao-reset
