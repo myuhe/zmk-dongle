@@ -57,7 +57,7 @@ include:
   #   artifact-name: lintilla-right
 
   # Settings Reset
-  - board: nice_nano@2.0.0
+  - board: nice_nano_v2
     shield: settings_reset
     artifact-name: nano-reset
   - board: xiao_ble//zmk
