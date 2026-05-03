@@ -60,6 +60,6 @@ include:
   - board: nice_nano@2.0.0
     shield: settings_reset
     artifact-name: nano-reset
-  - board: seeeduino_xiao_ble
-    shield: settings_reset
-    artifact-name: xiao-reset
+  # - board: seeeduino_xiao_ble
+  #   shield: settings_reset
+  #   artifact-name: xiao-reset
