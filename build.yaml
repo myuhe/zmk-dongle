@@ -32,13 +32,13 @@ include:
   #   artifact-name: klor-right
 
   # Kyria rev 3.1 with OLED dongle
-  - board: nice_nano@2.0.0
+  - board: nice_nano_v2
     shield: trikyria_dongle dongle_display
     artifact-name: kyria-dongle
-  - board: nice_nano@2.0.0
+  - board: nice_nano_v2
     shield: trikyria_left
     artifact-name: kyria-left
-  - board: nice_nano@2.0.0
+  - board: nice_nano_v2
     shield: trikyria_right
     artifact-name: kyria-right
 

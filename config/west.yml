@@ -15,7 +15,7 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: v0.3
       import: app/west.yml
     # - name: zmk
     #   remote: Nick-Munnich
@@ -32,6 +32,6 @@ manifest:
     #   revision: main
     - name: zmk-dongle-display
       remote: englmaxi
-      revision: main
+      revision: v0.3
   self:
     path: config
