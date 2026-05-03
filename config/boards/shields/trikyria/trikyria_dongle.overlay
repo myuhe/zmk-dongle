@@ -34,10 +34,12 @@
         display-offset = <0>;
         multiplex-ratio = <63>;
 //        rotation  = <180>;
-//        segment-remap;
-//        com-invdir;
+        segment-remap;
+        com-invdir;
        inversion-on;
         prechargep = <0x22>;
+
+
     };
 };
 
